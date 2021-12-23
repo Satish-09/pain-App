@@ -1,0 +1,17 @@
+.Navbar {
+  background-color:white;
+  color:coral;
+  font-size: bold;
+}
+
+.Logo {
+background-color: inherit;
+text-align: left;
+
+}
+.Heading {
+     text-align: center;
+     padding-bottom: 10px;
+
+
+}

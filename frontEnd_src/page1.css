@@ -1,0 +1,182 @@
+     .PMT {
+    margin-top:0;
+    font-family: Calibri;
+    padding: 35px 35px 35px 35px;
+  font-size: 25px;
+  color:black;
+  text-align:;
+  border-radius: 15px;
+}
+
+
+
+
+.fieldname {
+  display: flex;
+  font-weight: Bold;
+  font-size: solid;
+  justify-content: space-around;
+  align-items: center;
+  
+  padding: 20px;
+  margin:  10px;
+  border:  35px;
+  background-color: lightgray;
+}
+.DOB{
+  display: flex;
+  font-weight: Bold;
+  font-size: solid;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  margin:  10px;
+  border: 35px;
+  background-color: lightgray;
+
+}
+/* .mail {
+  display: flex;
+  font-weight: Bold;
+  font-size: solid;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem;
+  margin:  10px;
+  border: 35px;
+  background-color: lightgray;
+} */
+
+/* .fieldinput{
+  float: left;
+  background-color:"darkgray";
+  width: 82%;
+  padding: 36px 0px 15px 26px;
+  margin-top: -76px;
+  display: inline;
+
+} */
+
+.fieldinput input[type=text]  {
+
+  margin-top: 8px;
+  border-color:"gray";
+  padding: 10px;
+  border: 1px solid ;
+  border-radius: 8px ;
+  resize: vertical;
+  float: right;
+  width: 60%;
+  margin-top: 0px;
+}
+.radio1 {
+  display: inline;
+  margin-top: 2px;
+      padding-left: 0px;
+
+    float: right;
+}
+.radio1:hover input ~ .checkmark {
+  background-color: blue;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+  .radio1 .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: blue;
+}
+.radio {
+  position: absolute;
+   opacity: 0;
+   cursor: pointer;
+}
+input[type="radio"] {
+    background-color: initial;
+    cursor: default;
+    padding-left: 1px ;
+    appearance: auto;
+    box-sizing: border-box;
+}
+
+
+ input[type="email"] {
+
+  margin-top: 8px;
+
+  border-color:"gray";
+  padding: 4px;
+  border: 2px solid ;
+  border: 20px ;
+  resize: vertical;
+  float: right;
+  width: 25%;
+
+}
+
+
+
+  .textarea{
+        width: 1205px;
+    margin:auto;
+    height: 112px;
+  }
+  .radio input[type=radio]{
+  display: inline-flex;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ /* react-datepicker {
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #aeaeae;
+    border-radius: 0.3rem;
+    display: inline-block;
+    position: relative;
+    margin-left: 750px;
+}  */
+
+/* .btn   {
+  float: center;
+  text-align:center;
+  width:20%;
+   color: black;
+  padding: 10px ;
+  cursor:pointer;
+  max-width: 180px;
+  border : 10px;
+  margin-left: 650px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color:"gray";
+} */
+.Submit{
+float: center;
+  width:25%;
+   color: black;
+  padding:5px ;
+  cursor:pointer;
+  max-width: 200px;
+  border-color: "black";
+  background-color:"gray";
+  border-radius: 4px;
+  margin-left : 500px
+}

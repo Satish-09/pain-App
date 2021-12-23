@@ -1,0 +1,121 @@
+.container1 h2 p {
+  float:left;
+  font-size: Bold;
+}
+.field1 {
+
+  display: flex;
+  font-weight: Bold;
+  font-size: solid;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  margin:  10px;
+  border: 35px;
+  background-color: lightgray;
+}
+.field2 {
+
+  display:flex;
+  font-weight: bold;
+  font-size: solid;
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin:   10px;
+  border: 25px;
+  background-color: lightgray;
+}
+.checkButtons {
+  float: right;
+  justify-content: space-around;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  background-color: darkgray;
+  border-:1px solid white;
+  margin-bottom: 5px;
+  padding:15px;
+  border-radius: 10px;
+}
+label.check-label {
+
+    float: right;
+}
+input#check1  {
+   font-color: black;
+    float: right;
+      padding-left: 25px;
+}
+input#check2  {
+    float: right;
+      padding-left: 25px;
+}
+input#check3  {
+    float: right;
+      padding-left: 25px;
+}
+input#check4  {
+    float: right;
+      padding-left: 25px;
+}
+input#check5 {
+    float: right;
+      padding-left: 25px;
+}
+input#check {
+    float: right;
+      padding-left: 25px;
+}
+.field3 {
+
+   padding: 10px;
+  display:flex;
+  font-weight: bold;
+  font-size: solid;
+  justify-content: space-around;
+  box-sizing: border-box;
+
+  margin: 10px;
+  border: 25px;
+  background-color: lightgray;
+}
+.fieldinput3{
+  float: right;
+  justify-content: space-between;
+  padding-left: 305px;
+}
+.field4 {
+
+   padding: 15px;
+  display:flex;
+  font-weight: bold;
+  font-size: solid;
+  justify-content: space-around;
+  box-sizing: border-box;
+
+  margin: 10px;
+  border: 25px;
+  background-color: lightgray;
+}
+.fieldinput4{
+  float: right;
+  justify-content: space-between;
+  padding-left:450px;
+}
+.field5 {
+
+  display:flex;
+  font-weight: bold;
+  font-size: solid;
+
+  justify-content: space-around;
+
+  box-sizing: border-box;
+
+  margin:   10px;
+  border: 25px;
+  background-color: lightgray;
+}
